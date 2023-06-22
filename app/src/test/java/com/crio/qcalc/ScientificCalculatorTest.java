@@ -45,8 +45,8 @@ public class ScientificCalculatorTest {
     @Test
     @DisplayName("Test modulo of integer")
     public void testModuloInt() {
-        Assertions.assertEquals(2, scientificCalculator.modulo(5, 2));
-        Assertions.assertEquals(5, scientificCalculator.modulo(10, 2));
+        Assertions.assertEquals(1, scientificCalculator.modulo(5, 2));
+        Assertions.assertEquals(0, scientificCalculator.modulo(10, 2));
     }
 
     @Test

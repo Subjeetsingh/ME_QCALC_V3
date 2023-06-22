@@ -17,7 +17,7 @@ public class ScientificCalculator {
      }
 
      public int modulo(int dividend, int divisor) {
-         return dividend / divisor;
+         return dividend % divisor;
      }
 
      public double modulo_double(double dividend, double divisor) {
