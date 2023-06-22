@@ -12,19 +12,40 @@ public class App {
     // public static void main(String[] args) {
     //     System.out.println(new App().getGreeting());
     
-   public static void main(String[] args) {
+//    public static void main(String[] args) {
 
-    System.out.println("Starting QCalc..");
+//     System.out.println("Starting QCalc..");
 
-    StandardCalculator calc = new StandardCalculator();
+//     StandardCalculator calc = new StandardCalculator();
 
-    calc.add(1, 2);
+//     calc.add(1, 2);
 
-    System.out.println(calc.getResult());
+//     System.out.println(calc.getResult());
+
+// }
+// public static void main(String[] args) {
+
+//     System.out.println(new App().getGreeting());
+
+//     ScientificCalculator calc = new ScientificCalculator();
+
+//     double result= calc.cubeOf(4.0);
+
+//     System.out.println("cube =" + result);
+public static void main(String[] args) {
+
+    System.out.println(new App().getGreeting());
+
+    ScientificCalculator calc = new ScientificCalculator();
+
+    int result= calc.modulo(5, 2);
+
+    System.out.println("modulo =" + result);
+
+}
 
 }
 
 
-}
 
 
